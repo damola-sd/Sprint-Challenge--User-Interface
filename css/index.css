@@ -112,7 +112,7 @@ p {
     justify-content: center;
 }
 
-.header {
+header {
     align-self: center;
     margin: 20px 280px;
 }
@@ -158,6 +158,34 @@ nav>a {
 	text-decoration: none;
 }
 
+.container.about-page {
+    border-top: 1px dotted black;
+	border-bottom: 1px solid black;	
+	text-align: left;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-bottom: 20px;
+}
+.container.about-page > div {
+	margin: 20px 20px 20px 20px;
+	border-bottom: 1px dotted black;
+
+}
+
+div > button {
+	width: 100px;
+	padding: 6px;
+	font-size: 12px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: white;
+    margin: 10px 16px 30px 10px;
+    
+}
+.item {
+    order: 4;
+}
 
 .bottom-content {
     display: flex;
