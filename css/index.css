@@ -147,6 +147,8 @@ nav>a {
 footer {
     width: 100%;
     background: black;
+    
+    
 }
 
 footer nav {
@@ -154,6 +156,7 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 20px;
     padding: 20px 2%;
     font-size: 14px;
 }
