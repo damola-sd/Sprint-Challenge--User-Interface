@@ -112,6 +112,24 @@ p {
     justify-content: center;
 }
 
+.header {
+    align-self: center;
+    margin: 20px 280px;
+}
+nav {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin: 10px 280px;
+
+}
+
+nav>a {
+	color: black;
+	text-decoration: none;
+}
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
