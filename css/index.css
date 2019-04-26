@@ -262,7 +262,7 @@ fieldset {
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
 	width:100%;
 	border:1px solid black;
-	background:#FFF;
+	background: white;
 	margin:0 0 10px;
 	padding:10px;
 }
@@ -271,13 +271,13 @@ fieldset {
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
-	border:1px solid #AAA;
+	border:1px solid lightgray;
 }
 
 #contact textarea {
 	height:100px;
 	max-width:100%;
-  resize:none;
+    resize:none;
 }
 
 #contact button[type="submit"] {
@@ -302,17 +302,17 @@ fieldset {
 
 #contact input:focus, #contact textarea:focus {
 	outline:0;
-	border:1px solid #999;
+	border:1px solid lightgray;
 }
 ::-webkit-input-placeholder {
- color:#888;
+ color:lightgray;
 }
 :-moz-placeholder {
- color:#888;
+ color:lightgray;
 }
 ::-moz-placeholder {
- color:#888;
+ color:lightgray;
 }
 :-ms-input-placeholder {
- color:#888;
+ color:lightgray;
 }
