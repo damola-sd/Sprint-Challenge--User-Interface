@@ -158,35 +158,41 @@ nav>a {
 	text-decoration: none;
 }
 
-.container.about-page {
+.mid-content.about-page {
     border-top: 1px dotted black;
 	border-bottom: 1px solid black;	
 	text-align: left;
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	padding-bottom: 20px;
-}
-.container.about-page > div {
-	margin: 20px 20px 20px 20px;
-	border-bottom: 1px dotted black;
-
+    flex-direction: row;
+    justify-content: space-between;
+	flex-wrap: wrap;  
 }
 
 div > button {
-	width: 100px;
+    width: 150px;
+    height: 35px;
 	padding: 6px;
-	font-size: 12px;
+	font-size: 15px;
 	border: 1px solid black;
-	border-radius: 5px;
+	border-radius: 100px;
 	background: white;
-    margin: 10px 16px 30px 10px;
+    margin: 10px 16px 30px 0;
     
 }
 .item {
-    order: 4;
+    border-bottom: 1px dotted black;
+    width: 320px;
+    height: 415px;
+    margin: 50px 40px 40px 10px;
+    order: 2;
+}
+.bottom {
+    margin: 30px 0 30px 10px;
 }
 
+.item > p{
+    width: 410px;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
